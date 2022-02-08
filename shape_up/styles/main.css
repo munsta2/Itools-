@@ -187,6 +187,9 @@ main aside h2 {
 main aside ul {
     padding-left: 25px;
 }
+aside ul li a {
+    text-decoration: none;
+}
 
 
 /*
