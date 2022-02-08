@@ -33,7 +33,7 @@ header img{
 */
 
 body{
-    width: 900px;
+    width: 1200px;
     border: 3px solid steelblue;
     margin: 0px auto 0px auto;
     box-shadow: 5px 5px black;
@@ -96,7 +96,7 @@ main blockquote{
 
 main section {
 	width: 525px;
-	float: right;
+	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -104,15 +104,27 @@ main section {
 
 
 
- aside {
+ #col1 {
     width: 245px;
     float: left;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 	padding-bottom: 20px;
 }
-main aside h2 {
+main #col2 h2 {
     color: maroon;
 }
+
+#col3 {
+    /* color: #000; */
+    width: 320px;
+    float: left; 
+    /* padding-left: 40px; */
+	padding-bottom: 20px;
+}
+#col3 h2 {
+    color: maroon;
+}
+
 
 
 /*
