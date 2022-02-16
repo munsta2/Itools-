@@ -167,10 +167,20 @@ main section {
 }
 main section h3 {
     color: maroon;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+}
+main section h2{
+    color: maroon;
 }
 main section h1 {
     padding-top: 0;
+}
+main section img {
+    float:left;
+    margin-right: 10px;
+}
+main section p {
+    float: clear;
 }
 
 
@@ -204,4 +214,21 @@ footer{
 }
 footer p{
     color: white;
+}
+
+footer a {
+    padding-top: 10px;
+    color: black;
+}
+footer a:hover {
+    color: white;
+}
+
+
+.image {
+    float: right;
+    border: 1px solid black;
+    width: 150px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
