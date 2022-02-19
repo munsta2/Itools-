@@ -197,6 +197,10 @@ fieldset textarea {
     margin-left: 2em;
 }
 
+input[type=submit], input[type=reset] {
+    float: left;
+}
+
 /*
     Footer CSS
 */
